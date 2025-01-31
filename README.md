@@ -1,1 +1,3 @@
 # Capstone
+This program validates records from input file in two parts. One in PL/1 where it checks for records that have all of the fields filled and sorts them into output file for REXX code if they are correct or puts them into an error file if they have at least one field empty. Second part in REXX where the program takes the ouput from PL/1 and checks if the record contains correct state code taken from areaabbv input file. If it is correct the program puts it into the output file and if it does not contain the correct code - inputs into error file. The code is wrapped in JCL to make the program run in batch.
+The project was done during the intership at Rocket Software to show my understanding and skills of fundamentals of REXX, PL/1 and JCl programming languages. 
